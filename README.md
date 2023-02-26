@@ -1,7 +1,7 @@
 # Anomaly-detection
 Agricultural insurance anomaly detection using Isolation forests
 
-Fire conditions:
+## Fire conditions:
 In the presence of dry vegetation.
 
 Lightning: For spontaneous veld fires, lightning is usually the source of ignition.
@@ -12,7 +12,7 @@ Wind speed: High wind speeds and gusts cause fires to spread faster.
 
 High temperature: A hot dry environment is very conducive for fires and create an opportunity for high heat concentration to occur causing ignition.
 
-Hail conditions:
+## Hail conditions:
 Low temperature: Cold air draft cools rain droplets and results in the formation of hailstones.
 
 Rainfall: Hail usually comes coupled with heavy rainfall.
