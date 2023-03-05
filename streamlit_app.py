@@ -1,7 +1,6 @@
 
 # Streamlit dependencies
 import streamlit as st
-import joblib,os
 
 # Libraries to be used in data cleaning and model
 import string
