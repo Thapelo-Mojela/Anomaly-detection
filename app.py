@@ -19,13 +19,8 @@ with header:
     st.sidebar.markdown(' * Email: DataScience@lombardins.onmicrosoft.com')
     st.sidebar.markdown('    ')
     st.sidebar.subheader('Team Members')
-    st.sidebar.write(''' - Jacob Tshabalala \n
-      Data Science Manager ''')
-    st.sidebar.write(''' - Pabatso Tejane \n
-      App developer ''')
-    st.sidebar.write(''' - Olefile Ramoitheki \n
-      Jnr Data Scienctist ''')
-    st.sidebar.write(''' - Matome Peta \n
-      Jnr Data Scienctist ''')
-    st.sidebar.write(''' - Tetelo Ndlalani \n
-      Jnr Data Scienctist ''')
+    st.sidebar.write(' - Jacob Tshabalala      Data Science Manager ')
+    st.sidebar.write(' - Pabatso Tejane        Jnr Data Scientist ')
+    st.sidebar.write(' - Olefile Ramoitheki    Jnr Data Scientist ')
+    st.sidebar.write(' - Matome Peta           Jnr Data Scientist ')
+    st.sidebar.write(' - Tetelo Ndlalani       Jnr Data Scientist ')
