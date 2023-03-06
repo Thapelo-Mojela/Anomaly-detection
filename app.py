@@ -13,7 +13,7 @@ with header:
     st.sidebar.subheader('Lombard Data Science ')
     st.sidebar.markdown('    ')
     options = ["Project Summary", "Exploring The Data", "Peril Rating", " Additional Information"]
-    selection = st.sidebar.selectbox(" * **Page Navigation options", options)
+    selection = st.sidebar.selectbox(" **Page Navigation options** ", options)
     st.sidebar.markdown('    ')
     st.sidebar.subheader('Contact us')
     st.sidebar.markdown(' * Email: DataScience@lombardins.onmicrosoft.com')
