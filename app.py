@@ -42,5 +42,5 @@ with Page1:
         High wind speeds  
         Low temperatures''')
 
-with Page2:
-    if selection == "Exploring The Data":
+#with Page2:
+    ##if selection == "Exploring The Data":
