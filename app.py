@@ -43,7 +43,7 @@ with Page1:
     elif selection == "Peril Rating":
         st.title('Risk Prediction')
         choices = ['Hail risk', 'Fire risk']
-        choice = st.sidebar.selectbox('Hoespruit weather analysis', choices)
+        choice = st.selectbox('Hoespruit weather analysis', choices)
         if choice == 'Hail risk':
             st.write('The risk of hail in Hoedspruit based on the analysed data is:')
         if choice == 'Fire risk':
