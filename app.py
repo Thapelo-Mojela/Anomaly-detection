@@ -45,9 +45,9 @@ with Page1:
         choices = ['Hail risk', 'Fire risk']
         choice = st.selectbox('Hoespruit weather analysis', choices)
         if choice == 'Hail risk':
-            st.write('The risk of hail in Hoedspruit based on the analysed data is:')
+            st.write('The risk of hail in Hoedspruit based on the weather data analysed is:')
         if choice == 'Fire risk':
-            st.write('The risk of fire in Hoedspruit based on the analysed data is:')
+            st.write('The risk of fire in Hoedspruit based on the weather data analysed is:')
 
 
 
