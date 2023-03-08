@@ -11,7 +11,7 @@ with Page1:
     st.title('Anomaly detection')
     st.sidebar.image('lombard2.jpg',use_column_width=True)
     st.sidebar.markdown('    ')
-    options = ["Project Summary", "Exploring The Data", "Peril Rating", " Additional Information"]
+    options = ["Project Summary", "Exploring The Data", "Peril Rating"]
     selection = st.sidebar.selectbox('Navigation', options)
     st.sidebar.markdown('    ')
     st.sidebar.subheader('Data Science Team Members ')
