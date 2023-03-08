@@ -29,10 +29,14 @@ with header:
         The purpose of this project is to explore the occurrence of these perils and provide guidance on pricing, in order to offer a reasonable product to the farmer while preventing loss on the insurers side.''')
         st.markdown('    ')
         st.markdown('The main perils we are interested in for crop insurance are hail are fire. Based on literature these are the factors/weather conditions that influence the perils:')
-        st.markdown('* **Hail conditions**')
-        st.write('In the presence of dry vegetation.')
-        st.write('''Lightning  
+        st.markdown('* **Fire conditions**')
+        st.write('''In the presence of dry vegetation  
+        Lightning  
         Low relative humidity  
         High wind speeds  
         High temperatures''')
-        st.markdown('* **Fire conditions**')
+        st.markdown('* **Hail conditions**')
+        st.write('''Heavy rainfall  
+        High relative humidity  
+        High wind speeds  
+        Low temperatures''')
