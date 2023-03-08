@@ -44,10 +44,9 @@ with Page1:
         st.title('Risk Prediction')
         choices = ['Hail risk', 'Fire risk']
         choice = st.sidebar.selectbox('Hoespruit weather analysis', choices)
-        st.write('prediction')
         if choice == 'Hail risk':
             st.write('The risk of hail in Hoedspruit based on the analysed data is:')
-        if choice == 'Hail risk':
+        if choice == 'Fire risk':
             st.write('The risk of fire in Hoedspruit based on the analysed data is:')
 
 
