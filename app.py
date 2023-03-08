@@ -31,7 +31,7 @@ with header:
         st.markdown('The main perils we are interested in for crop insurance are hail are fire. Based on literature these are the factors/weather conditions that influence the perils:')
         st.markdown('* **Fire conditions**')
         st.write('''In the presence of dry vegetation  
-        Lightning  
+        Lightning(ignition source)  
         Low relative humidity  
         High wind speeds  
         High temperatures''')
@@ -40,3 +40,4 @@ with header:
         High relative humidity  
         High wind speeds  
         Low temperatures''')
+    if selection == "Exploring The Data":
