@@ -31,8 +31,8 @@ with header:
         st.markdown('The main perils we are interested in for crop insurance are hail are fire. Based on literature these are the factors/weather conditions that influence the perils:')
         st.markdown('* **Hail conditions**')
         st.write('In the presence of dry vegetation.')
-        st.write('''Lightning: For spontaneous veld fires, lightning is usually the source of ignition.  
-        Low relative humidity: Low relative humidity results in more fast and furious fires.  
-        Wind speed: High wind speeds and gusts cause fires to spread faster.  
-        High temperature: A hot dry environment is very conducive for fires and create an opportunity for high heat concentration to occur causing ignition.''')
+        st.write('''Lightning  
+        Low relative humidity  
+        High wind speeds  
+        High temperatures''')
         st.markdown('* **Fire conditions**')
