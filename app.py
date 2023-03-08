@@ -12,7 +12,7 @@ with header:
     st.sidebar.image('lombard2.jpg',use_column_width=True)
     st.sidebar.markdown('    ')
     options = ["Project Summary", "Exploring The Data", "Peril Rating", " Additional Information"]
-    selection = st.sidebar.selectbox(" **Page Navigation options** ", options)
+    selection = st.sidebar.selectbox('Page Navigation options', options)
     st.sidebar.markdown('    ')
     st.sidebar.subheader('Data Science Team Members ')
     st.sidebar.write(' - Jacob Tshabalala ')
