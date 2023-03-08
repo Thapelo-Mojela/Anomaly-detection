@@ -45,18 +45,16 @@ with Page1:
         st.image('risk-formula.png')
         choices = ['Hail risk', 'Fire risk']
         choice = st.selectbox('Hoespruit weather analysis', choices)
+        hail_severity_score = 0.62
+        hail_ferquency_score = 0.07
+        fire_severity_score = 0.76
+        fire_frequecy_score = 0.12
         if choice == 'Hail risk':
-            hail_severity_score = 0.62
-            hail_ferquency_score = 0.07
-            Hail_risk = (hail_severity_factor * hail_frequency_factor * 100)
-
+            Hail_risk = ( hail_severity_score*hail_ferquency_score*100)
             st.write('The risk of hail in Hoedspruit based on the weather data analysed is:')
 
         if choice == 'Fire risk':
-            fire_severity_score = 0.76
-            fire_frequecy_score = 0.12
-            Fire_risk = fire_frequency_factor*fire_frequency_factor*100
-
+            Fire_risk = (fire_severity_score*fire_frequecy_score*100)
             st.write('The risk of fire in Hoedspruit based on the weather data analysed is:')
 
 
