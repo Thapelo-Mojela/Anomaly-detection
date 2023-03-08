@@ -44,3 +44,6 @@ with Page1:
 
     elif selection == "Exploring The Data":
         st.write('prediction')
+    
+    elif selection == "Peril Rating":
+        st.write('prediction')
