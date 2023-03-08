@@ -42,11 +42,21 @@ with Page1:
     
     elif selection == "Peril Rating":
         st.title('Risk Prediction')
+        st.image('risk-formula.png')
         choices = ['Hail risk', 'Fire risk']
         choice = st.selectbox('Hoespruit weather analysis', choices)
         if choice == 'Hail risk':
+            hail_severity_score = 0.62
+            hail_ferquency_score = 0.07
+            Hail_risk = (hail_severity_factor * hail_frequency_factor * 100)
+
             st.write('The risk of hail in Hoedspruit based on the weather data analysed is:')
+
         if choice == 'Fire risk':
+            fire_severity_score = 0.76
+            fire_frequecy_score = 0.12
+            Fire_risk = fire_frequency_factor*fire_frequency_factor*100
+
             st.write('The risk of fire in Hoedspruit based on the weather data analysed is:')
 
 
