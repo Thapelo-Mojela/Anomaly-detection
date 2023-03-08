@@ -8,14 +8,13 @@ feature = st.container()
 model = st.container()
 
 with header:
-    st.sidebar.title('Anomaly detection')
+    st.title('Anomaly detection')
     st.sidebar.image('lombard.png')
-    st.sidebar.subheader('Lombard Data Science ')
     st.sidebar.markdown('    ')
     options = ["Project Summary", "Exploring The Data", "Peril Rating", " Additional Information"]
     selection = st.sidebar.selectbox(" **Page Navigation options** ", options)
     st.sidebar.markdown('    ')
-    st.sidebar.subheader('Team Members ')
+    st.sidebar.subheader('Data Science Team Members ')
     st.sidebar.write(' - Jacob Tshabalala ')
     st.sidebar.write(' - Pabatso Tejane ')
     st.sidebar.write(' - Olefile Ramoitheki ')
