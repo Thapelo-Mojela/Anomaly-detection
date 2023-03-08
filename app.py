@@ -37,7 +37,22 @@ with Page1:
         st.write('''Heavy rainfall, high relative humidity, high wind speeds and low temperatures''')
 
     elif selection == "Exploring The Data":
+        st.title('Data Overview')
         st.write('prediction')
     
     elif selection == "Peril Rating":
+        st.title('Risk Prediction')
+        choices = ['Hail risk', 'Fire risk']
+        choice = st.sidebar.selectbox('Hoespruit weather analysis', choices)
         st.write('prediction')
+        if choice == 'Hail risk':
+            st.write('The risk of hail in Hoedspruit based on the analysed data is:')
+        if choice == 'Hail risk':
+            st.write('The risk of fire in Hoedspruit based on the analysed data is:')
+
+
+
+
+
+
+
