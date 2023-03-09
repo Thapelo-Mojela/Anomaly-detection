@@ -67,7 +67,11 @@ with Page1:
             Fire_risk = round(fire_severity_score*fire_frequecy_score*100,2)
             st.write('The risk of fire in Hoedspruit based on the weather data analysed is:', Fire_risk ,'%')
 
+            def RiskRating(a,b):
+                risk = round(a*b*100,2)
+                return risk
 
+        st.button(RiskRating(fire_frequecy_score,fire_severity_score))
 
 
 
