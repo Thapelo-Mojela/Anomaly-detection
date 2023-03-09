@@ -68,7 +68,7 @@ with Page1:
             elif choice == 'Fire risk':
                 RR = round(fire_severity_score*fire_frequecy_score*100,2)
                 #st.write('The risk of fire in Hoedspruit based on the weather data analysed is:', Fire_risk ,'%')
-            st.success(f"Answer = {RR}")
+            st.success(f"Answer = {RR} %")
 
         if st.button("Calculate risk rating"):
             Rrating()
