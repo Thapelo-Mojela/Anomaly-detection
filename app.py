@@ -10,7 +10,7 @@ Page4 = st.container()
 with Page1:
     st.sidebar.image('lombard2.jpg',use_column_width=True)
     st.sidebar.markdown('    ')
-    options = ["Project Summary", "Exploring The Data", "Risk Rating"]
+    options = ["Project Summary", "A View Of The Data", "Risk Calculation"]
     selection = st.sidebar.selectbox('Navigation', options)
     st.sidebar.markdown('    ')
     st.sidebar.subheader('Data Science Team Members ')
@@ -36,7 +36,7 @@ with Page1:
         st.markdown('* **Hail conditions**')
         st.write('''Heavy rainfall, high relative humidity, high wind speeds and low temperatures''')
 
-    elif selection == "Exploring The Data":
+    elif selection == "A View Of The Data":
         st.title('A View of the data')
         st.markdown('    ')
         st.write('Hoedspruit weather data (2018-2022) density distributions')
@@ -47,7 +47,7 @@ with Page1:
         st.image('HoedRain.PNG')
         #st.write('Hoedspruit weather data')
     
-    elif selection == "Risk Rating":
+    elif selection == "Risk Calculation":
         st.title('Risk Prediction')
         st.markdown('    ')
         #st.write('Risk calculation formula')
