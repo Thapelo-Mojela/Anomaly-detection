@@ -41,6 +41,7 @@ with Page1:
         st.write('Hoedspruit weather data density distributions')
         st.image('density1.PNG')
         st.image('density2.PNG')
+        st.sidebar.markdown('    ')
         st.write('Rainfall data distribution throughout the 2018 to 2022 period')
         st.image('HoedRain.PNG')
         #st.write('Hoedspruit weather data')
