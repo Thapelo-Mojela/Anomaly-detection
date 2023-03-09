@@ -37,11 +37,11 @@ with Page1:
         st.title('A view of the data')
         st.markdown('    ')
         st.write('Hoedspruit weather data (2018-2022) density distributions')
-        st.image('density1.PNG')
-        st.image('density2.PNG')
+        st.image('density11.PNG')
+        st.image('density22.PNG')
         st.markdown('    ')
         st.write('Rainfall data distribution throughout the 2018 to 2022 period')
-        st.image('HoedRain.PNG')
+        st.image('HoedRain11.PNG')
         #st.write('Hoedspruit weather data')
     
     elif selection == "Risk calculation":
