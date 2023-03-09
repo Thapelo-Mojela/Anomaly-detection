@@ -10,7 +10,7 @@ Page4 = st.container()
 with Page1:
     st.sidebar.image('lombard2.jpg',use_column_width=True)
     st.sidebar.markdown('    ')
-    options = ["Project Summary", "Exploring The Data", "Peril Rating"]
+    options = ["Project Summary", "Exploring The Data", "Risk Rating"]
     selection = st.sidebar.selectbox('Navigation', options)
     st.sidebar.markdown('    ')
     st.sidebar.subheader('Data Science Team Members ')
@@ -38,9 +38,13 @@ with Page1:
 
     elif selection == "Exploring The Data":
         st.title('A View of the data')
-        st.write('Hoedspruit weather data')
+        st.subheader('Hoedspruit weather data')
+        st.image('density1.PNG')
+        st.image('density1.PNG')
+        st.image('HoedRain.PNG')
+        #st.write('Hoedspruit weather data')
     
-    elif selection == "Peril Rating":
+    elif selection == "Risk Rating":
         st.title('Risk Prediction')
         st.write('Risk calculation formula')
         st.image('risk-formula.png')
