@@ -5,7 +5,7 @@ import numpy as np
 Page1  = st.container()
 
 with Page1:
-    st.sidebar.image('lombard.png',use_column_width=True)
+    st.sidebar.image('lombard3.png',use_column_width=True)
     st.sidebar.markdown('    ')
     options = ["Project summary", "A view of the data", "Risk calculation"]
     selection = st.sidebar.selectbox('Navigation', options)
