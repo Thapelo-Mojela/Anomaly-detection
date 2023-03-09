@@ -38,18 +38,21 @@ with Page1:
 
     elif selection == "Exploring The Data":
         st.title('A View of the data')
+        st.markdown('    ')
         st.write('Hoedspruit weather data density distributions')
         st.image('density1.PNG')
         st.image('density2.PNG')
-        st.sidebar.markdown('    ')
+        st.markdown('    ')
         st.write('Rainfall data distribution throughout the 2018 to 2022 period')
         st.image('HoedRain.PNG')
         #st.write('Hoedspruit weather data')
     
     elif selection == "Risk Rating":
         st.title('Risk Prediction')
+        st.markdown('    ')
         st.write('Risk calculation formula')
         st.image('risk-formula.png')
+        st.markdown('    ')
         choices = ['Hail risk', 'Fire risk']
         choice = st.selectbox('Hoespruit weather analysis', choices)
         hail_severity_score = 0.62
