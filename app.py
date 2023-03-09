@@ -55,18 +55,20 @@ with Page1:
         st.markdown('    ')
         choices = ['Hail risk', 'Fire risk']
         choice = st.radio('Hoespruit weather analysis', choices)
-        hail_severity_score = 0.62
-        hail_ferquency_score = 0.07
-        fire_severity_score = 0.76
-        fire_frequecy_score = 0.12
-        if choice == 'Hail risk':
-            Hail_risk = round(hail_severity_score*hail_ferquency_score*100,2)
-            #st.write('The risk of hail in Hoedspruit based on the weather data analysed is:', Hail_risk ,'%')
+        def Rrating():
+            hail_severity_score = 0.62
+            hail_ferquency_score = 0.07
+            fire_severity_score = 0.76
+            fire_frequecy_score = 0.12
+            if choice == 'Hail risk':
+                Hail_risk = round(hail_severity_score*hail_ferquency_score*100,2)
+                #st.write('The risk of hail in Hoedspruit based on the weather data analysed is:', Hail_risk ,'%')
 
-        elif choice == 'Fire risk':
-            Fire_risk = round(fire_severity_score*fire_frequecy_score*100,2)
-            #st.write('The risk of fire in Hoedspruit based on the weather data analysed is:', Fire_risk ,'%')
-
+            elif choice == 'Fire risk':
+                Fire_risk = round(fire_severity_score*fire_frequecy_score*100,2)
+                #st.write('The risk of fire in Hoedspruit based on the weather data analysed is:', Fire_risk ,'%')
+        if st.button("Calculate risk rating"):
+            Rrating()
 
 
 
