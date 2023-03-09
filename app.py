@@ -40,7 +40,7 @@ with Page1:
         st.title('A View of the data')
         st.subheader('Hoedspruit weather data')
         st.image('density1.PNG')
-        st.image('density1.PNG')
+        st.image('density2.PNG')
         st.image('HoedRain.PNG')
         #st.write('Hoedspruit weather data')
     
