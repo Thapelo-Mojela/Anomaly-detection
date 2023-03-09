@@ -50,11 +50,11 @@ with Page1:
     elif selection == "Risk Rating":
         st.title('Risk Prediction')
         st.markdown('    ')
-        st.write('Risk calculation formula')
+        #st.write('Risk calculation formula')
         st.image('risk-formula.png')
         st.markdown('    ')
         choices = ['Hail risk', 'Fire risk']
-        choice = st.radio('Hoespruit weather analysis', choices)
+        choice = st.radio('Hoespruit weather analysis risk calculation', choices)
         RR = 0
         def Rrating():
             hail_severity_score = 0.62
