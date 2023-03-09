@@ -37,8 +37,8 @@ with Page1:
         st.write('''Heavy rainfall, high relative humidity, high wind speeds and low temperatures''')
 
     elif selection == "Exploring The Data":
-        st.title('Data Overview')
-        st.write('prediction')
+        st.title('A View of the data')
+        st.write('Hoedspruit weather data')
     
     elif selection == "Peril Rating":
         st.title('Risk Prediction')
