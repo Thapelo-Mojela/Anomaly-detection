@@ -42,6 +42,7 @@ with Page1:
     
     elif selection == "Peril Rating":
         st.title('Risk Prediction')
+        st.write('Risk calculation formula')
         st.image('risk-formula.png')
         choices = ['Hail risk', 'Fire risk']
         choice = st.selectbox('Hoespruit weather analysis', choices)
