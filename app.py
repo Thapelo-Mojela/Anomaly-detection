@@ -3,17 +3,14 @@ import pandas as pd
 import numpy as np 
 
 Page1  = st.container()
-Page2 = st.container()
-Page3 = st.container()
-Page4 = st.container()
 
 with Page1:
     st.sidebar.image('lombard2.jpg',use_column_width=True)
     st.sidebar.markdown('    ')
-    options = ["Project Summary", "A View Of The Data", "Risk Calculation"]
+    options = ["Project summary", "A view of the data", "Risk calculation"]
     selection = st.sidebar.selectbox('Navigation', options)
     st.sidebar.markdown('    ')
-    st.sidebar.subheader('Data Science Team Members ')
+    st.sidebar.subheader('Data science team members ')
     st.sidebar.write(' - Jacob Tshabalala ')
     st.sidebar.write(' - Pabatso Tejane ')
     st.sidebar.write(' - Olefile Ramoitheki ')
@@ -23,7 +20,7 @@ with Page1:
     st.sidebar.subheader('Contact us')
     st.sidebar.markdown(' * Email: DataScience@lombardins.onmicrosoft.com')
 
-    if selection == "Project Summary":
+    if selection == "Project summary":
         st.title('Anomaly detection')
         st.write('''Climate change has resulted in the occurrence of unpredictable and severe weather events.  
         The occurrence of these events may result in the loss of crops and vegetation, which can be catastrophic and detrimental to the livelihoods of the farmers affected. Crop insurance has become more popular with farmers being more aware of the benefits of indemnifying themselves against the loss of their crops from such events.  
@@ -36,8 +33,8 @@ with Page1:
         st.markdown('* **Hail conditions**')
         st.write('''Heavy rainfall, high relative humidity, high wind speeds and low temperatures''')
 
-    elif selection == "A View Of The Data":
-        st.title('A View of the data')
+    elif selection == "A view of the data":
+        st.title('A view of the data')
         st.markdown('    ')
         st.write('Hoedspruit weather data (2018-2022) density distributions')
         st.image('density1.PNG')
@@ -47,8 +44,8 @@ with Page1:
         st.image('HoedRain.PNG')
         #st.write('Hoedspruit weather data')
     
-    elif selection == "Risk Calculation":
-        st.title('Risk Prediction')
+    elif selection == "Risk calculation":
+        st.title('Risk prediction')
         st.markdown('    ')
         #st.write('Risk calculation formula')
         st.image('risk-formula.png')
