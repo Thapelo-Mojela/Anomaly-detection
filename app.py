@@ -39,7 +39,7 @@ with Page1:
     elif selection == "Exploring The Data":
         st.title('A View of the data')
         st.markdown('    ')
-        st.write('Hoedspruit weather data density distributions')
+        st.write('Hoedspruit weather data (2018-2022) density distributions')
         st.image('density1.PNG')
         st.image('density2.PNG')
         st.markdown('    ')
